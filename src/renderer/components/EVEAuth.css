@@ -1,0 +1,261 @@
+.eve-auth {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.auth-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #333;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.auth-header h2 {
+  color: #fff;
+  margin: 0;
+}
+
+.auth-button {
+  background: linear-gradient(45deg, #ff6b35, #f7931e);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.auth-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 107, 53, 0.3);
+}
+
+.auth-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.callback-button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.callback-button:hover:not(:disabled) {
+  background: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+.callback-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.callback-input-section {
+  background: #2a2a2a;
+  border: 2px solid #444;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.callback-input-section label {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.callback-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #666;
+  border-radius: 6px;
+  background: #1a1a1a;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.callback-input:focus {
+  outline: none;
+  border-color: #28a745;
+  box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.2);
+}
+
+.callback-instructions {
+  color: #ccc;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.loading {
+  text-align: center;
+  color: #ccc;
+  font-size: 18px;
+  padding: 40px;
+}
+
+.error-message {
+  background: #dc3545;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  border-left: 4px solid #a71e2a;
+}
+
+.no-characters {
+  text-align: center;
+  color: #ccc;
+  padding: 40px;
+}
+
+.no-characters p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.characters-list {
+  display: grid;
+  gap: 15px;
+}
+
+.character-card {
+  background: #2a2a2a;
+  border: 2px solid #444;
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.character-card:hover {
+  border-color: #666;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.character-card.selected {
+  border-color: #28a745;
+  background: #1e3a1e;
+}
+
+.character-info {
+  margin-bottom: 15px;
+}
+
+.character-info h3 {
+  color: #fff;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.character-info p {
+  margin: 5px 0;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.character-info .valid {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.character-info .expired {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.character-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.select-button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.select-button:hover {
+  background: #218838;
+}
+
+.selected-indicator {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.remove-button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.remove-button:hover {
+  background: #c82333;
+}
+
+.refresh-button {
+  background: #ffc107;
+  color: #212529;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.refresh-button:hover {
+  background: #e0a800;
+}
+
+.selected-character-info {
+  background: #1e3a1e;
+  border: 2px solid #28a745;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.selected-character-info h3 {
+  color: #28a745;
+  margin: 0 0 10px 0;
+}
+
+.selected-character-info p {
+  color: #ccc;
+  margin: 0;
+}

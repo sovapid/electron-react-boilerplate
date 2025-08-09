@@ -1,0 +1,647 @@
+{
+  "SELECT type, name FROM sqlite_master ORDER BY type, name": [
+    {
+      "type" : "index",
+      "name" : "industryActivityMaterials_idx1"
+    },
+    {
+      "type" : "index",
+      "name" : "industryActivitySkills_idx1"
+    },
+    {
+      "type" : "index",
+      "name" : "invUniqueNames_IX_GroupName"
+    },
+    {
+      "type" : "index",
+      "name" : "items_IX_OwnerLocation"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_agtAgentsInSpace_solarSystemID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_agtAgents_corporationID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_agtAgents_locationID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_agtResearchAgents_typeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_certSkills_skillID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_dgmTypeAttributes_attributeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_industryActivityMaterials_typeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_industryActivityProbabilities_productTypeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_industryActivityProbabilities_typeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_industryActivityProducts_productTypeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_industryActivityProducts_typeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_industryActivityRaces_productTypeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_industryActivityRaces_typeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_industryActivitySkills_skillID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_industryActivitySkills_typeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_industryActivity_activityID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_invContrabandTypes_typeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_invGroups_categoryID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_invItems_locationID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_invTypes_groupID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_invUniqueNames_itemName"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_mapDenormalize_constellationID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_mapDenormalize_orbitID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_mapDenormalize_regionID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_mapDenormalize_solarSystemID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_mapDenormalize_typeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_mapSolarSystems_constellationID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_mapSolarSystems_regionID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_mapSolarSystems_security"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_ramAssemblyLineStations_ownerID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_ramAssemblyLineStations_regionID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_ramAssemblyLineStations_solarSystemID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_skinShip_skinID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_skinShip_typeID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_staStations_constellationID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_staStations_corporationID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_staStations_operationID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_staStations_regionID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_staStations_solarSystemID"
+    },
+    {
+      "type" : "index",
+      "name" : "ix_staStations_stationTypeID"
+    },
+    {
+      "type" : "index",
+      "name" : "mapDenormalize_IX_groupConstellation"
+    },
+    {
+      "type" : "index",
+      "name" : "mapDenormalize_IX_groupRegion"
+    },
+    {
+      "type" : "index",
+      "name" : "mapDenormalize_IX_groupSystem"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_agtResearchAgents_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_crpNPCCorporationDivisions_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_crpNPCCorporationResearchFields_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_crpNPCCorporationTrades_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_dgmTypeAttributes_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_dgmTypeEffects_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_industryActivity_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_invContrabandTypes_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_invControlTowerResources_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_invTypeMaterials_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_invTypeReactions_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_mapConstellationJumps_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_mapRegionJumps_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_mapSolarSystemJumps_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_planetSchematicsPinMap_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_planetSchematicsTypeMap_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_ramAssemblyLineStations_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_ramAssemblyLineTypeDetailPerCategory_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_ramAssemblyLineTypeDetailPerGroup_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_ramInstallationTypeContents_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_staOperationServices_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_staStations_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_translationTables_1"
+    },
+    {
+      "type" : "index",
+      "name" : "sqlite_autoindex_trnTranslations_1"
+    },
+    {
+      "type" : "table",
+      "name" : "agtAgentTypes"
+    },
+    {
+      "type" : "table",
+      "name" : "agtAgents"
+    },
+    {
+      "type" : "table",
+      "name" : "agtAgentsInSpace"
+    },
+    {
+      "type" : "table",
+      "name" : "agtResearchAgents"
+    },
+    {
+      "type" : "table",
+      "name" : "certCerts"
+    },
+    {
+      "type" : "table",
+      "name" : "certMasteries"
+    },
+    {
+      "type" : "table",
+      "name" : "certSkills"
+    },
+    {
+      "type" : "table",
+      "name" : "chrAncestries"
+    },
+    {
+      "type" : "table",
+      "name" : "chrAttributes"
+    },
+    {
+      "type" : "table",
+      "name" : "chrBloodlines"
+    },
+    {
+      "type" : "table",
+      "name" : "chrFactions"
+    },
+    {
+      "type" : "table",
+      "name" : "chrRaces"
+    },
+    {
+      "type" : "table",
+      "name" : "crpActivities"
+    },
+    {
+      "type" : "table",
+      "name" : "crpNPCCorporationDivisions"
+    },
+    {
+      "type" : "table",
+      "name" : "crpNPCCorporationResearchFields"
+    },
+    {
+      "type" : "table",
+      "name" : "crpNPCCorporationTrades"
+    },
+    {
+      "type" : "table",
+      "name" : "crpNPCCorporations"
+    },
+    {
+      "type" : "table",
+      "name" : "crpNPCDivisions"
+    },
+    {
+      "type" : "table",
+      "name" : "dgmAttributeCategories"
+    },
+    {
+      "type" : "table",
+      "name" : "dgmAttributeTypes"
+    },
+    {
+      "type" : "table",
+      "name" : "dgmEffects"
+    },
+    {
+      "type" : "table",
+      "name" : "dgmExpressions"
+    },
+    {
+      "type" : "table",
+      "name" : "dgmTypeAttributes"
+    },
+    {
+      "type" : "table",
+      "name" : "dgmTypeEffects"
+    },
+    {
+      "type" : "table",
+      "name" : "eveGraphics"
+    },
+    {
+      "type" : "table",
+      "name" : "eveIcons"
+    },
+    {
+      "type" : "table",
+      "name" : "eveUnits"
+    },
+    {
+      "type" : "table",
+      "name" : "industryActivity"
+    },
+    {
+      "type" : "table",
+      "name" : "industryActivityMaterials"
+    },
+    {
+      "type" : "table",
+      "name" : "industryActivityProbabilities"
+    },
+    {
+      "type" : "table",
+      "name" : "industryActivityProducts"
+    },
+    {
+      "type" : "table",
+      "name" : "industryActivityRaces"
+    },
+    {
+      "type" : "table",
+      "name" : "industryActivitySkills"
+    },
+    {
+      "type" : "table",
+      "name" : "industryBlueprints"
+    },
+    {
+      "type" : "table",
+      "name" : "invCategories"
+    },
+    {
+      "type" : "table",
+      "name" : "invContrabandTypes"
+    },
+    {
+      "type" : "table",
+      "name" : "invControlTowerResourcePurposes"
+    },
+    {
+      "type" : "table",
+      "name" : "invControlTowerResources"
+    },
+    {
+      "type" : "table",
+      "name" : "invFlags"
+    },
+    {
+      "type" : "table",
+      "name" : "invGroups"
+    },
+    {
+      "type" : "table",
+      "name" : "invItems"
+    },
+    {
+      "type" : "table",
+      "name" : "invMarketGroups"
+    },
+    {
+      "type" : "table",
+      "name" : "invMetaGroups"
+    },
+    {
+      "type" : "table",
+      "name" : "invMetaTypes"
+    },
+    {
+      "type" : "table",
+      "name" : "invNames"
+    },
+    {
+      "type" : "table",
+      "name" : "invPositions"
+    },
+    {
+      "type" : "table",
+      "name" : "invTraits"
+    },
+    {
+      "type" : "table",
+      "name" : "invTypeMaterials"
+    },
+    {
+      "type" : "table",
+      "name" : "invTypeReactions"
+    },
+    {
+      "type" : "table",
+      "name" : "invTypes"
+    },
+    {
+      "type" : "table",
+      "name" : "invUniqueNames"
+    },
+    {
+      "type" : "table",
+      "name" : "invVolumes"
+    },
+    {
+      "type" : "table",
+      "name" : "mapCelestialGraphics"
+    },
+    {
+      "type" : "table",
+      "name" : "mapCelestialStatistics"
+    },
+    {
+      "type" : "table",
+      "name" : "mapConstellationJumps"
+    },
+    {
+      "type" : "table",
+      "name" : "mapConstellations"
+    },
+    {
+      "type" : "table",
+      "name" : "mapDenormalize"
+    },
+    {
+      "type" : "table",
+      "name" : "mapJumps"
+    },
+    {
+      "type" : "table",
+      "name" : "mapLandmarks"
+    },
+    {
+      "type" : "table",
+      "name" : "mapLocationScenes"
+    },
+    {
+      "type" : "table",
+      "name" : "mapLocationWormholeClasses"
+    },
+    {
+      "type" : "table",
+      "name" : "mapRegionJumps"
+    },
+    {
+      "type" : "table",
+      "name" : "mapRegions"
+    },
+    {
+      "type" : "table",
+      "name" : "mapSolarSystemJumps"
+    },
+    {
+      "type" : "table",
+      "name" : "mapSolarSystems"
+    },
+    {
+      "type" : "table",
+      "name" : "mapUniverse"
+    },
+    {
+      "type" : "table",
+      "name" : "planetSchematics"
+    },
+    {
+      "type" : "table",
+      "name" : "planetSchematicsPinMap"
+    },
+    {
+      "type" : "table",
+      "name" : "planetSchematicsTypeMap"
+    },
+    {
+      "type" : "table",
+      "name" : "ramActivities"
+    },
+    {
+      "type" : "table",
+      "name" : "ramAssemblyLineStations"
+    },
+    {
+      "type" : "table",
+      "name" : "ramAssemblyLineTypeDetailPerCategory"
+    },
+    {
+      "type" : "table",
+      "name" : "ramAssemblyLineTypeDetailPerGroup"
+    },
+    {
+      "type" : "table",
+      "name" : "ramAssemblyLineTypes"
+    },
+    {
+      "type" : "table",
+      "name" : "ramInstallationTypeContents"
+    },
+    {
+      "type" : "table",
+      "name" : "skinLicense"
+    },
+    {
+      "type" : "table",
+      "name" : "skinMaterials"
+    },
+    {
+      "type" : "table",
+      "name" : "skinShip"
+    },
+    {
+      "type" : "table",
+      "name" : "skins"
+    },
+    {
+      "type" : "table",
+      "name" : "staOperationServices"
+    },
+    {
+      "type" : "table",
+      "name" : "staOperations"
+    },
+    {
+      "type" : "table",
+      "name" : "staServices"
+    },
+    {
+      "type" : "table",
+      "name" : "staStationTypes"
+    },
+    {
+      "type" : "table",
+      "name" : "staStations"
+    },
+    {
+      "type" : "table",
+      "name" : "translationTables"
+    },
+    {
+      "type" : "table",
+      "name" : "trnTranslationColumns"
+    },
+    {
+      "type" : "table",
+      "name" : "trnTranslationLanguages"
+    },
+    {
+      "type" : "table",
+      "name" : "trnTranslations"
+    },
+    {
+      "type" : "table",
+      "name" : "warCombatZoneSystems"
+    },
+    {
+      "type" : "table",
+      "name" : "warCombatZones"
+    }
+  ]}
